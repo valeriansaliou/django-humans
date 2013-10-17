@@ -5,7 +5,7 @@ from setuptools import find_packages
 
 setup(
     name='django-humans',
-    version='0.2alt',
+    version='0.3alt',
     author=u'Jason Novinger',
     author_email='jnovinger@gmail.com',
     packages=find_packages(),

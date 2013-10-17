@@ -13,7 +13,7 @@ def humans_txt(request, template='humans.txt'):
             'snippet': snippet,
             'groups': groups,
         },
-        mimetype='text/plain',
+        mimetype='text/plain; charset=utf-8',
         context_instance=RequestContext(request),
     )
 
